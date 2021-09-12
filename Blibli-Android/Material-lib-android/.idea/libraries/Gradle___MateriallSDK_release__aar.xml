@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :MateriallSDK-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cef672eee8db76a5be18691b585c8b9a/jetified-MateriallSDK-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cef672eee8db76a5be18691b585c8b9a/jetified-MateriallSDK-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cef672eee8db76a5be18691b585c8b9a/jetified-MateriallSDK-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
