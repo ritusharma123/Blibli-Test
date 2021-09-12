@@ -1,0 +1,11 @@
+framework module Materiall {
+  umbrella header "Materiall.h"
+
+  export *
+  module * { export * }
+}
+
+module Materiall.Swift {
+    header "Materiall-Swift.h"
+    requires objc
+}

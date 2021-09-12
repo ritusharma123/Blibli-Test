@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7E57AE5125FF5D78002FBA07 /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E57AE5225FF5D78002FBA07 /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				7E57AE5825FF5D9A002FBA07 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		56E7415826EB6F3F003E6417 /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7415726EB6F3F003E6417 /* TimeService.swift */; };
+		7E57ADF925FF527D002FBA07 /* Materiall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57ADEF25FF527D002FBA07 /* Materiall.framework */; };
+		7E57ADFE25FF527D002FBA07 /* MateriallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57ADFD25FF527D002FBA07 /* MateriallTests.swift */; };
+		7E57AE0025FF527D002FBA07 /* Materiall.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E57ADF225FF527D002FBA07 /* Materiall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E57AE0C25FF531D002FBA07 /* Materiall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE0B25FF531D002FBA07 /* Materiall.swift */; };
+		7E57AE1025FF5354002FBA07 /* MateriallAsyncBlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE0F25FF5354002FBA07 /* MateriallAsyncBlockOperation.swift */; };
+		7E57AE1425FF5386002FBA07 /* MateriallBackendConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE1325FF5386002FBA07 /* MateriallBackendConfiguration.swift */; };
+		7E57AE1825FF53E8002FBA07 /* MateriallResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE1725FF53E8002FBA07 /* MateriallResult.swift */; };
+		7E57AE1C25FF5411002FBA07 /* MateriallBackendAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE1B25FF5411002FBA07 /* MateriallBackendAPIRequest.swift */; };
+		7E57AE2025FF548A002FBA07 /* MateriallNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE1F25FF548A002FBA07 /* MateriallNetworkService.swift */; };
+		7E57AE2425FF5516002FBA07 /* Materiall+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE2325FF5516002FBA07 /* Materiall+Configuration.swift */; };
+		7E57AE2825FF55C6002FBA07 /* MaterialRecommendationCategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE2725FF55C6002FBA07 /* MaterialRecommendationCategoryRequest.swift */; };
+		7E57AE6025FF759D002FBA07 /* MateriallRecomProductSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE5F25FF759D002FBA07 /* MateriallRecomProductSearchRequest.swift */; };
+		7E57AE6525FF79DB002FBA07 /* MaterialSimilarProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE6425FF79DB002FBA07 /* MaterialSimilarProductRequest.swift */; };
+		7E57AE6A25FF8324002FBA07 /* MateriallProductEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE6925FF8324002FBA07 /* MateriallProductEvent.swift */; };
+		7E57AE6F2600985D002FBA07 /* MaterialRefreshCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE6E2600985D002FBA07 /* MaterialRefreshCache.swift */; };
+		7E57AE7426009A61002FBA07 /* MaterialRefreshConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE7326009A61002FBA07 /* MaterialRefreshConfig.swift */; };
+		7E57AE7926009BE3002FBA07 /* MaterialGenerateDiversity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57AE7826009BE3002FBA07 /* MaterialGenerateDiversity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E57ADFA25FF527D002FBA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E57ADE625FF527D002FBA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E57ADEE25FF527D002FBA07;
+			remoteInfo = Materiall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56E7415726EB6F3F003E6417 /* TimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeService.swift; sourceTree = "<group>"; };
+		7E57ADEF25FF527D002FBA07 /* Materiall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Materiall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E57ADF225FF527D002FBA07 /* Materiall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Materiall.h; sourceTree = "<group>"; };
+		7E57ADF325FF527D002FBA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E57ADF825FF527D002FBA07 /* MateriallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MateriallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E57ADFD25FF527D002FBA07 /* MateriallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallTests.swift; sourceTree = "<group>"; };
+		7E57ADFF25FF527D002FBA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E57AE0B25FF531D002FBA07 /* Materiall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materiall.swift; sourceTree = "<group>"; };
+		7E57AE0F25FF5354002FBA07 /* MateriallAsyncBlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallAsyncBlockOperation.swift; sourceTree = "<group>"; };
+		7E57AE1325FF5386002FBA07 /* MateriallBackendConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallBackendConfiguration.swift; sourceTree = "<group>"; };
+		7E57AE1725FF53E8002FBA07 /* MateriallResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallResult.swift; sourceTree = "<group>"; };
+		7E57AE1B25FF5411002FBA07 /* MateriallBackendAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallBackendAPIRequest.swift; sourceTree = "<group>"; };
+		7E57AE1F25FF548A002FBA07 /* MateriallNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallNetworkService.swift; sourceTree = "<group>"; };
+		7E57AE2325FF5516002FBA07 /* Materiall+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Materiall+Configuration.swift"; sourceTree = "<group>"; };
+		7E57AE2725FF55C6002FBA07 /* MaterialRecommendationCategoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialRecommendationCategoryRequest.swift; sourceTree = "<group>"; };
+		7E57AE5F25FF759D002FBA07 /* MateriallRecomProductSearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallRecomProductSearchRequest.swift; sourceTree = "<group>"; };
+		7E57AE6425FF79DB002FBA07 /* MaterialSimilarProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSimilarProductRequest.swift; sourceTree = "<group>"; };
+		7E57AE6925FF8324002FBA07 /* MateriallProductEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriallProductEvent.swift; sourceTree = "<group>"; };
+		7E57AE6E2600985D002FBA07 /* MaterialRefreshCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialRefreshCache.swift; sourceTree = "<group>"; };
+		7E57AE7326009A61002FBA07 /* MaterialRefreshConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialRefreshConfig.swift; sourceTree = "<group>"; };
+		7E57AE7826009BE3002FBA07 /* MaterialGenerateDiversity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialGenerateDiversity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E57ADEC25FF527D002FBA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E57ADF525FF527D002FBA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E57ADF925FF527D002FBA07 /* Materiall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E57ADE525FF527D002FBA07 = {
+			isa = PBXGroup;
+			children = (
+				7E57ADF125FF527D002FBA07 /* Materiall */,
+				7E57ADFC25FF527D002FBA07 /* MateriallTests */,
+				7E57ADF025FF527D002FBA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E57ADF025FF527D002FBA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E57ADEF25FF527D002FBA07 /* Materiall.framework */,
+				7E57ADF825FF527D002FBA07 /* MateriallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E57ADF125FF527D002FBA07 /* Materiall */ = {
+			isa = PBXGroup;
+			children = (
+				7E57ADF225FF527D002FBA07 /* Materiall.h */,
+				7E57AE0B25FF531D002FBA07 /* Materiall.swift */,
+				7E57AE7326009A61002FBA07 /* MaterialRefreshConfig.swift */,
+				7E57AE7826009BE3002FBA07 /* MaterialGenerateDiversity.swift */,
+				7E57AE6E2600985D002FBA07 /* MaterialRefreshCache.swift */,
+				7E57AE6925FF8324002FBA07 /* MateriallProductEvent.swift */,
+				7E57AE5F25FF759D002FBA07 /* MateriallRecomProductSearchRequest.swift */,
+				7E57AE6425FF79DB002FBA07 /* MaterialSimilarProductRequest.swift */,
+				7E57AE2725FF55C6002FBA07 /* MaterialRecommendationCategoryRequest.swift */,
+				7E57AE0F25FF5354002FBA07 /* MateriallAsyncBlockOperation.swift */,
+				7E57AE1325FF5386002FBA07 /* MateriallBackendConfiguration.swift */,
+				7E57AE1725FF53E8002FBA07 /* MateriallResult.swift */,
+				7E57AE1B25FF5411002FBA07 /* MateriallBackendAPIRequest.swift */,
+				7E57AE1F25FF548A002FBA07 /* MateriallNetworkService.swift */,
+				7E57AE2325FF5516002FBA07 /* Materiall+Configuration.swift */,
+				7E57ADF325FF527D002FBA07 /* Info.plist */,
+				56E7415726EB6F3F003E6417 /* TimeService.swift */,
+			);
+			path = Materiall;
+			sourceTree = "<group>";
+		};
+		7E57ADFC25FF527D002FBA07 /* MateriallTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E57ADFD25FF527D002FBA07 /* MateriallTests.swift */,
+				7E57ADFF25FF527D002FBA07 /* Info.plist */,
+			);
+			path = MateriallTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E57ADEA25FF527D002FBA07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E57AE0025FF527D002FBA07 /* Materiall.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E57ADEE25FF527D002FBA07 /* Materiall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E57AE0325FF527D002FBA07 /* Build configuration list for PBXNativeTarget "Materiall" */;
+			buildPhases = (
+				7E57ADEA25FF527D002FBA07 /* Headers */,
+				7E57ADEB25FF527D002FBA07 /* Sources */,
+				7E57ADEC25FF527D002FBA07 /* Frameworks */,
+				7E57ADED25FF527D002FBA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Materiall;
+			productName = Materiall;
+			productReference = 7E57ADEF25FF527D002FBA07 /* Materiall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E57ADF725FF527D002FBA07 /* MateriallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E57AE0625FF527D002FBA07 /* Build configuration list for PBXNativeTarget "MateriallTests" */;
+			buildPhases = (
+				7E57ADF425FF527D002FBA07 /* Sources */,
+				7E57ADF525FF527D002FBA07 /* Frameworks */,
+				7E57ADF625FF527D002FBA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E57ADFB25FF527D002FBA07 /* PBXTargetDependency */,
+			);
+			name = MateriallTests;
+			productName = MateriallTests;
+			productReference = 7E57ADF825FF527D002FBA07 /* MateriallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E57ADE625FF527D002FBA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7E57ADEE25FF527D002FBA07 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					7E57ADF725FF527D002FBA07 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					7E57AE5125FF5D78002FBA07 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 7E57ADE925FF527D002FBA07 /* Build configuration list for PBXProject "Materiall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E57ADE525FF527D002FBA07;
+			productRefGroup = 7E57ADF025FF527D002FBA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E57ADEE25FF527D002FBA07 /* Materiall */,
+				7E57ADF725FF527D002FBA07 /* MateriallTests */,
+				7E57AE5125FF5D78002FBA07 /* Aggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E57ADED25FF527D002FBA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E57ADF625FF527D002FBA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E57AE5825FF5D9A002FBA07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Make sure the output directory exists\n\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/Materiall.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/Materiall.framework/Modules/Materiallbbb.swiftmodule/.\"  \"${UNIVERSAL_OUTPUTFOLDER}/Materiall.framework/Modules/Materiall.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/Materiall.framework/Materiall\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/Materiall.framework/Materiall\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/Materiall.framework/Materiall\"\n\n\n# Step 5. Convenience step to open the project's directory in Finder\n\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E57ADEB25FF527D002FBA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E57AE6025FF759D002FBA07 /* MateriallRecomProductSearchRequest.swift in Sources */,
+				56E7415826EB6F3F003E6417 /* TimeService.swift in Sources */,
+				7E57AE2425FF5516002FBA07 /* Materiall+Configuration.swift in Sources */,
+				7E57AE2825FF55C6002FBA07 /* MaterialRecommendationCategoryRequest.swift in Sources */,
+				7E57AE1025FF5354002FBA07 /* MateriallAsyncBlockOperation.swift in Sources */,
+				7E57AE1C25FF5411002FBA07 /* MateriallBackendAPIRequest.swift in Sources */,
+				7E57AE7926009BE3002FBA07 /* MaterialGenerateDiversity.swift in Sources */,
+				7E57AE6A25FF8324002FBA07 /* MateriallProductEvent.swift in Sources */,
+				7E57AE1425FF5386002FBA07 /* MateriallBackendConfiguration.swift in Sources */,
+				7E57AE6525FF79DB002FBA07 /* MaterialSimilarProductRequest.swift in Sources */,
+				7E57AE7426009A61002FBA07 /* MaterialRefreshConfig.swift in Sources */,
+				7E57AE1825FF53E8002FBA07 /* MateriallResult.swift in Sources */,
+				7E57AE2025FF548A002FBA07 /* MateriallNetworkService.swift in Sources */,
+				7E57AE0C25FF531D002FBA07 /* Materiall.swift in Sources */,
+				7E57AE6F2600985D002FBA07 /* MaterialRefreshCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E57ADF425FF527D002FBA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E57ADFE25FF527D002FBA07 /* MateriallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E57ADFB25FF527D002FBA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E57ADEE25FF527D002FBA07 /* Materiall */;
+			targetProxy = 7E57ADFA25FF527D002FBA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E57AE0125FF527D002FBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E57AE0225FF527D002FBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E57AE0425FF527D002FBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Materiall/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosearch.materiall;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E57AE0525FF527D002FBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Materiall/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosearch.materiall;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E57AE0725FF527D002FBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XX3LY49U;
+				INFOPLIST_FILE = MateriallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awt.MateriallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E57AE0825FF527D002FBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XX3LY49U;
+				INFOPLIST_FILE = MateriallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awt.MateriallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E57AE5325FF5D78002FBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XX3LY49U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E57AE5425FF5D78002FBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XX3LY49U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E57ADE925FF527D002FBA07 /* Build configuration list for PBXProject "Materiall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E57AE0125FF527D002FBA07 /* Debug */,
+				7E57AE0225FF527D002FBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E57AE0325FF527D002FBA07 /* Build configuration list for PBXNativeTarget "Materiall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E57AE0425FF527D002FBA07 /* Debug */,
+				7E57AE0525FF527D002FBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E57AE0625FF527D002FBA07 /* Build configuration list for PBXNativeTarget "MateriallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E57AE0725FF527D002FBA07 /* Debug */,
+				7E57AE0825FF527D002FBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E57AE5225FF5D78002FBA07 /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E57AE5325FF5D78002FBA07 /* Debug */,
+				7E57AE5425FF5D78002FBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E57ADE625FF527D002FBA07 /* Project object */;
+}

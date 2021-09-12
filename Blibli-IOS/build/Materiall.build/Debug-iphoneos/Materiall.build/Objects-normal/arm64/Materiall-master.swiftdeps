@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "9336ad2578e43349c999ec4dd2aace00"
+build_time: [1631358048, 565531000]
+inputs:
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallRecomProductSearchRequest.swift": [1631171217, 892796667]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/TimeService.swift": [1631346639, 807729603]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/Materiall+Configuration.swift": [1631346969, 639586732]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MaterialRecommendationCategoryRequest.swift": [1631171217, 890047289]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallAsyncBlockOperation.swift": [1631171217, 891692314]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallBackendAPIRequest.swift": [1631171217, 892010452]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MaterialGenerateDiversity.swift": [1631171217, 889795779]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallProductEvent.swift": [1631171217, 892668727]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallBackendConfiguration.swift": [1631355676, 530610695]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MaterialSimilarProductRequest.swift": [1631171217, 890708538]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MaterialRefreshConfig.swift": [1631171217, 890489195]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallResult.swift": [1631171217, 892917989]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MateriallNetworkService.swift": [1631171217, 892475365]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/Materiall.swift": [1631358038, 448396447]
+  "/Users/ritu/WS/Blibli/IOS/Blibli-IOS/Materiall/MaterialRefreshCache.swift": [1631171217, 890274603]
