@@ -23,7 +23,7 @@ extension Materiall {
             case .development:
                 return URL(string: "https://api.blibli-staging.curiosearch.in")!
             case .production:
-                return URL(string: "https://blibli-qa.curiosearch.in")!
+                return URL(string: "https://api.blibli.curiosearch.in")!
             case .custom(let url):
                 return url
             }

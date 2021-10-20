@@ -1,0 +1,4 @@
+xcodebuild -configuration Debug -sdk iphonesimulator clean build
+
+
+xcodebuild -configuration Debug -sdk iphoneos clean build 
