@@ -27,7 +27,7 @@ public class Materiall {
     public static let framework = Materiall()
     
     /// Defines the environment to use
-    public var environment: Environment = .QA
+    public var environment: Environment = .production
     
     /// configuration object that contains dynamic or static properties
     internal var configuration = Configuration()
@@ -131,7 +131,7 @@ public class Materiall {
     
     public func getRecommendedProductCategory(clientID: String?,userID: String?, sessionId: String?,page:Int, pagetype:String,template:String, then: @escaping ([String: Any]) -> ()) {
         let semaphore = DispatchSemaphore (value: 0)
-        print("raaj 2\(authorizationToken)")
+        //print("raaj 2\(authorizationToken)")
         var endpoint: String {
             var urlEndPoint = "api/products/recommendation?&clientId=\(clientID ?? "")&sessionId=\(sessionId ?? "")&userId=\(userID ?? "")&page=\(page)&pageType=\(pagetype)&template=\(template)"
 

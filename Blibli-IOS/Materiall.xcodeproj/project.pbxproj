@@ -130,8 +130,8 @@
 				7E57AE1B25FF5411002FBA07 /* MateriallBackendAPIRequest.swift */,
 				7E57AE1F25FF548A002FBA07 /* MateriallNetworkService.swift */,
 				7E57AE2325FF5516002FBA07 /* Materiall+Configuration.swift */,
-				7E57ADF325FF527D002FBA07 /* Info.plist */,
 				56E7415726EB6F3F003E6417 /* TimeService.swift */,
+				7E57ADF325FF527D002FBA07 /* Info.plist */,
 			);
 			path = Materiall;
 			sourceTree = "<group>";
@@ -442,6 +442,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 21;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -471,6 +472,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 21;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
