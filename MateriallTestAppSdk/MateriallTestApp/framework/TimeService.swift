@@ -25,9 +25,13 @@ class TimeService{
             _ = semaphore.wait(timeout: .distantFuture)
             print(error ?? "No error")
             do{
-                let json = try JSONSerialization.jsonObject(with: data!, options:.allowFragments) as! [String : AnyObject]
-                if let time = json["unixtime"] as? Int{
-                    completion(Double(time))
+                if data != nil{
+                    let json = try JSONSerialization.jsonObject(with: data!, options:.allowFragments) as! [String : AnyObject]
+                    if let time = json["unixtime"] as? Int{
+                        completion(Double(time))
+                    }else{
+                        completion(NSDate().timeIntervalSince1970)
+                    }
                 }else{
                     completion(NSDate().timeIntervalSince1970)
                 }

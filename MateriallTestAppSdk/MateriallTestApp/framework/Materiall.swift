@@ -27,7 +27,7 @@ public class Materiall {
     public static let framework = Materiall()
     
     /// Defines the environment to use
-    public var environment: Environment = .QA
+    public var environment: Environment = .production
     
     /// configuration object that contains dynamic or static properties
     internal var configuration = Configuration()

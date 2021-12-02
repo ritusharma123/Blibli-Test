@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Materiall
 
 class ViewController: UIViewController {
     let clientId : String = "blibli-client2"
@@ -40,6 +39,7 @@ class ViewController: UIViewController {
     func startLoading(){
         DispatchQueue.main.async {
             self.view.endEditing(true)
+            self.spinner?.bringSubviewToFront(self.view)
             self.spinner?.startAnimating()
             self.view.isUserInteractionEnabled = false
         }
@@ -47,6 +47,7 @@ class ViewController: UIViewController {
     
     func stopLoading(){
         DispatchQueue.main.async {
+            self.view.endEditing(false)
             self.spinner?.stopAnimating()
             self.view.isUserInteractionEnabled = true
         }

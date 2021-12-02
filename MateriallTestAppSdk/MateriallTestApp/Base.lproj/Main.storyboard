@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bi3-dG-0fQ">
-                                <rect key="frame" x="20" y="105" width="374" height="519"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="20" y="105" width="374" height="471"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -37,8 +38,10 @@
                                     <action selector="apiActionWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OfI-vB-kl8"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="4Yc-dP-9DY">
-                                <rect key="frame" x="188.5" y="639" width="37" height="55"/>
+                            <activityIndicatorView opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" id="4Yc-dP-9DY">
+                                <rect key="frame" x="189" y="421" width="37" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </activityIndicatorView>
@@ -47,12 +50,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Bi3-dG-0fQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1dy-i1-HmM"/>
-                            <constraint firstItem="4Yc-dP-9DY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MJ-dp-7r1"/>
-                            <constraint firstItem="ytJ-8h-JP1" firstAttribute="top" secondItem="Bi3-dG-0fQ" secondAttribute="bottom" constant="78" id="DFy-nC-AYX"/>
-                            <constraint firstItem="ytJ-8h-JP1" firstAttribute="centerX" secondItem="4Yc-dP-9DY" secondAttribute="centerX" id="EZa-Fm-NuF"/>
+                            <constraint firstItem="ytJ-8h-JP1" firstAttribute="top" secondItem="Bi3-dG-0fQ" secondAttribute="bottom" constant="126" id="DFy-nC-AYX"/>
                             <constraint firstItem="ytJ-8h-JP1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FhA-Al-kP3"/>
-                            <constraint firstItem="4Yc-dP-9DY" firstAttribute="top" secondItem="Bi3-dG-0fQ" secondAttribute="bottom" constant="15" id="NQm-zJ-JbB"/>
-                            <constraint firstItem="ytJ-8h-JP1" firstAttribute="top" secondItem="4Yc-dP-9DY" secondAttribute="bottom" constant="8" id="S1H-d5-ad6"/>
                             <constraint firstItem="ytJ-8h-JP1" firstAttribute="centerX" secondItem="Bi3-dG-0fQ" secondAttribute="centerX" id="TMO-9E-JPz"/>
                             <constraint firstItem="Bi3-dG-0fQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gi6-nA-Abx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ytJ-8h-JP1" secondAttribute="bottom" constant="124" id="kgk-ht-toZ"/>
@@ -60,7 +59,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="spinner" destination="4Yc-dP-9DY" id="J4a-dn-c9v"/>
+                        <outlet property="spinner" destination="4Yc-dP-9DY" id="feh-vU-Hfw"/>
                         <outlet property="txtResponse" destination="Bi3-dG-0fQ" id="YYT-aG-3qp"/>
                     </connections>
                 </viewController>
@@ -75,6 +74,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

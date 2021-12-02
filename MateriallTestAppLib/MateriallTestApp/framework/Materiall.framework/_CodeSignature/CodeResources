@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Materiall-Swift.h</key>
 		<data>
-		Xk5JQeG/PQVO1t/u/jgbIl5jq8A=
+		Kjf/cc+qYkF0XzyV26cGH5VH2wM=
 		</data>
 		<key>Headers/Materiall.h</key>
 		<data>
@@ -14,31 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FzyKlI2KbuKtfWHg9hITwpGFnhk=
+		R0+1gu8wH6A2MJCQ6LAJPdBuax8=
+		</data>
+		<key>Modules/Materiall.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		sHsa+ke6O0/bQ5WEPy6CMUMCKXM=
+		</data>
+		<key>Modules/Materiall.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		sHsa+ke6O0/bQ5WEPy6CMUMCKXM=
 		</data>
 		<key>Modules/Materiall.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ogezyB8b4HIogTH0TiLD5az9d7s=
+		aOWZheZEnPuqBLeEf5DJ4eS1qrc=
 		</data>
 		<key>Modules/Materiall.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		ogezyB8b4HIogTH0TiLD5az9d7s=
+		aOWZheZEnPuqBLeEf5DJ4eS1qrc=
+		</data>
+		<key>Modules/Materiall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		YzdwEnKZg/7yN6O7hHCLTjkGWA8=
+		</data>
+		<key>Modules/Materiall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		MtenDJQwaxBF18TozomgTnE5ixk=
+		</data>
+		<key>Modules/Materiall.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		YzdwEnKZg/7yN6O7hHCLTjkGWA8=
+		</data>
+		<key>Modules/Materiall.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		MtenDJQwaxBF18TozomgTnE5ixk=
 		</data>
 		<key>Modules/Materiall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FAeX9WIc2+SRZOeYpKaNgKA6opM=
+		PgSnOJ/iKGMqWdpRaTE8Lmsk5JM=
 		</data>
 		<key>Modules/Materiall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iLJM/KbMg+jZDnpO2eMNX9KASow=
+		b7cH529QIKHRr9C96taGajUGQj8=
 		</data>
 		<key>Modules/Materiall.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		FAeX9WIc2+SRZOeYpKaNgKA6opM=
+		PgSnOJ/iKGMqWdpRaTE8Lmsk5JM=
 		</data>
 		<key>Modules/Materiall.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		iLJM/KbMg+jZDnpO2eMNX9KASow=
+		b7cH529QIKHRr9C96taGajUGQj8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6rn/Rwmh6OW1ZFh8Fisj9eA5kKAbbCL6Hadto5mkrZo=
+			JC1SunM7TaqzLvCZBTMfpqIo9LVZC6lldZ9f/mepAHA=
 			</data>
 		</dict>
 		<key>Headers/Materiall.h</key>
@@ -61,46 +85,88 @@
 			3ldw9XFLIe5gPu4kB4+ki8XH/aUOhXkCu/k6O+D5lGo=
 			</data>
 		</dict>
+		<key>Modules/Materiall.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QZDgqEq5qcPvxTn9tDOAX4nS4JjY43DSeVrKtporNDY=
+			</data>
+		</dict>
+		<key>Modules/Materiall.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QZDgqEq5qcPvxTn9tDOAX4nS4JjY43DSeVrKtporNDY=
+			</data>
+		</dict>
 		<key>Modules/Materiall.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EmIiYeYFUrYdfEi4OnR3a9UnCXf97UGC2OO19P5EzZI=
+			7jNKH0lfFRROdZD5TPuzppLsJazZNjM6tj7ZGaEdmF0=
 			</data>
 		</dict>
 		<key>Modules/Materiall.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EmIiYeYFUrYdfEi4OnR3a9UnCXf97UGC2OO19P5EzZI=
+			7jNKH0lfFRROdZD5TPuzppLsJazZNjM6tj7ZGaEdmF0=
+			</data>
+		</dict>
+		<key>Modules/Materiall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d+x5gZCa7pdTVEI7HRltzLZno36GyR9abS+TtTgYdYM=
+			</data>
+		</dict>
+		<key>Modules/Materiall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gEa79oY5rdpFTghI15dqf+dSm1gCFbuQkieOY4Pioq8=
+			</data>
+		</dict>
+		<key>Modules/Materiall.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d+x5gZCa7pdTVEI7HRltzLZno36GyR9abS+TtTgYdYM=
+			</data>
+		</dict>
+		<key>Modules/Materiall.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gEa79oY5rdpFTghI15dqf+dSm1gCFbuQkieOY4Pioq8=
 			</data>
 		</dict>
 		<key>Modules/Materiall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZ3ilDa+G2CbdKk1OwzSXZejZ8ngYyn+oFv+PjIfn6Q=
+			qnnoZeLh+c/TE5HAFrUrGsV0feLBAQdvF5cFPZOH258=
 			</data>
 		</dict>
 		<key>Modules/Materiall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pzhuO3eyqAUJjuTw0uhA0GXrWhhC2wrFUvPD3eq9IN8=
+			kLz8BdfFuEDg11zvDO2MznEqjv22XPrir1RCahj/kkg=
 			</data>
 		</dict>
 		<key>Modules/Materiall.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZ3ilDa+G2CbdKk1OwzSXZejZ8ngYyn+oFv+PjIfn6Q=
+			qnnoZeLh+c/TE5HAFrUrGsV0feLBAQdvF5cFPZOH258=
 			</data>
 		</dict>
 		<key>Modules/Materiall.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pzhuO3eyqAUJjuTw0uhA0GXrWhhC2wrFUvPD3eq9IN8=
+			kLz8BdfFuEDg11zvDO2MznEqjv22XPrir1RCahj/kkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
