@@ -12,7 +12,7 @@ class TimeService{
     static func getCurrentUnixTimeStamp(completion:  @escaping (Double) -> ()) {
             var data: Data?
             var error: Error?
-            let url = URL(string: "https://worldtimeapi.org/api/ip")!
+            let url = URL(string: "http://worldtimeapi.org/api/ip")!
             var request = URLRequest(url: url)
             request.httpMethod = "GET"
             let semaphore = DispatchSemaphore(value: 0)
